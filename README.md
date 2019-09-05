@@ -25,6 +25,7 @@ soup,200,12
 pie,500,25
 
 Methodology
+
 a. Parameters
 Your code will read the records through standard input (STDIN). Remember, the first record (line) is
 the column headings and should not be sorted as data. Your code must take in a command-line
@@ -47,6 +48,7 @@ Your code's output will be a new CSV file outputted to STDOUT. You should output
 by line using printf.
 For testing purposes you can redirect STDOUT to a file:
 cat input.file | ./simpleCSVsorter -c movie_title > sortedmovies.csv
+
 c. Structure
 Your code should use Mergesort to do the actual sorting of records. It is a powerful algorithm with an
 excellent average case. You should write your own Mergesort code.
@@ -59,6 +61,7 @@ If you write any other definitions, typedefs, structs, unions or large helper fu
 sure to put them in your header file and document them.
 
 Results
+
 Submit your “simpleCSVsorter.c”, “simpleCSVsorter.h” and “mergesort.c” as well as any other source
 files your header file references.
 Document your design, assumptions, difficulties you had and testing procedure. Include any test CSV
