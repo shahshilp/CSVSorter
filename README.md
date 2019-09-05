@@ -1,5 +1,6 @@
 # CSVSorter
 Introduction
+
 The input file will be a CSV or comma-separated value file, which is a simple way to represent a
 database table. In a CSV file each line is one record (or row). Commas are separators that denote
 different types of values per record (columns). Very often the first record (row) of a CSV is a list of
